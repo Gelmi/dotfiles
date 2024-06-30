@@ -1,0 +1,8 @@
+#!/bin/sh
+
+redshift -O3500; xset r rate 300 50;
+
+dwmblocks &
+xbindkeys &
+dunst &
+exec dwm
